@@ -39,8 +39,8 @@ importers:
         specifier: 0.30.4
         version: 0.30.4(@neondatabase/serverless@0.9.0)(@types/pg@8.6.6)(@types/react@18.3.3)(react@19.2.1)
       imagekit:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: ^6.0.0
+        version: 6.0.0
       lucide-react:
         specifier: 0.363.0
         version: 0.363.0(react@19.2.1)
@@ -2104,8 +2104,8 @@ packages:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
 
-  imagekit@5.0.0:
-    resolution: {integrity: sha512-BrWk2/16xcL1/p9SuphsDPlIV5U8165ZnhaVL87ze00dIf+1lyKXAFCImGYqSjtgjn2gQnrNmFaCSyWNaHvmhQ==}
+  imagekit@6.0.0:
+    resolution: {integrity: sha512-0MsxThZM2PYH6ngwN3zi9PDa8pCB5mEZG2FSySYiZk3Hfri8IMwUqVNzRlLQewBHQ3YtTN9M59O0Xe9HRewtOA==}
     engines: {node: '>=12.0.0'}
 
   import-fresh@3.3.1:
@@ -5144,7 +5144,7 @@ snapshots:
 
   ignore@7.0.5: {}
 
-  imagekit@5.0.0:
+  imagekit@6.0.0:
     dependencies:
       axios: 1.13.2
       form-data: 4.0.5
