@@ -44,6 +44,9 @@ importers:
       '@neondatabase/serverless':
         specifier: 0.9.0
         version: 0.9.0
+      '@react-types/shared':
+        specifier: 3.25.0
+        version: 3.25.0(react@19.2.1)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -1215,6 +1218,11 @@ packages:
     resolution: {integrity: sha512-Q0cRPcBGzNGmC8dBuHyoPR7N3057KTS5g+vZfQ53k8WwmilXBtemFJPLsogJbspuewQ/QJ3o2HYsp2pne7/iNw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+
+  '@react-types/shared@3.25.0':
+    resolution: {integrity: sha512-OZSyhzU6vTdW3eV/mz5i6hQwQUhkRs7xwY2d1aqPvTdMe0+2cY7Fwp45PAiwYLEj73i9ro2FxF9qC4DvHGSCgQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0
 
   '@react-types/shared@3.28.0':
     resolution: {integrity: sha512-9oMEYIDc3sk0G5rysnYvdNrkSg7B04yTKl50HHSZVbokeHpnU0yRmsDaWb9B/5RprcKj8XszEk5guBO8Sa/Q+Q==}
@@ -4401,6 +4409,10 @@ snapshots:
   '@react-types/overlays@3.9.2(react@19.2.1)':
     dependencies:
       '@react-types/shared': 3.32.1(react@19.2.1)
+      react: 19.2.1
+
+  '@react-types/shared@3.25.0(react@19.2.1)':
+    dependencies:
       react: 19.2.1
 
   '@react-types/shared@3.28.0(react@19.2.1)':
